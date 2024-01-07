@@ -1,0 +1,78 @@
+*{
+    margin: 0; 
+    padding: 0;
+} 
+  
+
+.banner img{  
+
+    margin-left: 80px; 
+    height: 430px; 
+    width: 1200px; 
+    margin-top: 15px;
+}  
+
+
+  
+  .text-title{  
+text-align: center;  
+ top: 20%; 
+position: absolute; 
+color: white; 
+
+} 
+.sub-title{
+    font-size: 30px; 
+    font-weight: 700; 
+} 
+.head-title{
+font-size: 55px; 
+font-weight: 800; 
+line-height: 70PX;
+} 
+.container  .text-title{
+    max-width: 500px;  
+  margin-left: 420px; 
+  margin-right: 250px; 
+  
+        
+} 
+ 
+.section{ 
+   
+
+}
+.heading-off{
+    color: orangered; 
+    font-size: 50px; 
+    font-size: 800;  
+    word-spacing: 10px; 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 25px;
+} 
+
+.heading-title{ 
+    color: orangered; 
+    font-size: 20px; 
+    text-align: center; 
+    font-weight: 100; 
+} 
+  
+.text-heading{
+    text-align: center;
+    margin-top: 8px;
+}
+.new-year-img{width: 500px; 
+    height: 310px; 
+    margin-left: 33%; 
+    margin-top: 2%;
+
+} 
+.section-img{
+    margin-left: 80px; 
+    height: 430px; 
+    width: 1200px;
+    margin-top: 70px ;
+
+}
