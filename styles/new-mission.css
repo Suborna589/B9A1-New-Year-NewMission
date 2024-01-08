@@ -63,16 +63,131 @@ line-height: 70PX;
     text-align: center;
     margin-top: 8px;
 }
-.new-year-img{width: 500px; 
+.new-year-img{
+    width: 500px; 
     height: 310px; 
     margin-left: 33%; 
     margin-top: 2%;
 
-} 
-.section-img{
+}  
+
+.section-img , .inofo-join{
     margin-left: 80px; 
     height: 430px; 
     width: 1200px;
     margin-top: 70px ;
 
-}
+} 
+
+.messages{ 
+ text-align: left;  
+ top:180%;
+position: absolute; 
+color: white;  
+margin-left: 200px; 
+max-width: 400px;    
+   
+}  
+
+
+  .title {
+    font-size: 45px;  
+    font-weight: 700;  
+    margin-bottom: 18px; 
+} 
+.description{
+    font-size: 15px; 
+    margin-top: 0;
+} 
+button{
+    border-radius: 10px; 
+    font-size: 25px; 
+   margin-top: 35px ;  
+   margin-left: 25px; 
+   padding: 5px 10px; 
+   background: yellow; 
+   border: 2px solid gainsboro;
+
+} 
+.inofo-join{
+    text-align: center; 
+     margin: 40px 78px 5px ;
+    line-height: 35px; 
+    background: peachpuff; 
+    border-radius: 15px; 
+    border: 1px solid wheat;  
+   
+
+}  
+.color{
+    color: orangered; 
+
+} 
+.inofo-join main{
+   padding-top: 8%;  
+
+
+} 
+.btn{
+    border-radius: 10px; 
+    color: white; 
+    font-size: 25px; 
+    background: orangered; 
+    padding: 5px 10px;
+    margin-top: 50px;
+}  
+.head{
+    font-weight: 600; 
+    font-size: 21px;
+} 
+.head-img-head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px; 
+    align-items: center;
+} 
+.head-img-head{
+    display: flex; 
+  text-align: left;
+
+} 
+.head-color{
+    color: orangered;
+} 
+.head1{
+    font-size: 50px;
+    font-weight: 700; 
+    margin-top: 8px;
+   
+}  
+
+.circle-img{
+    
+    width: 240px; 
+    height: 240px;
+   margin-top: 60px; 
+   margin-right: 190px; 
+   padding-left: 90px;
+ 
+ } 
+ .head2{
+    color: orangered; 
+    font-size: 40px; 
+    font-weight: 800; 
+    margin-top: 70px;
+    margin-bottom: 12px; 
+ } 
+ .descript{
+    width: 400px;
+    line-height: 20px; 
+    margin-top: 15px; 
+ 
+ } 
+ .new-image{
+    margin-top: 20px;
+ }
+
+
+
+
+   
