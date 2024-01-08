@@ -257,9 +257,6 @@ form{
    min-height: 420px;
 } 
 
-hr{
-   margin: 0 80px;
-}
 .part{
     display: flex; 
     text-align: center; 
@@ -294,8 +291,14 @@ hr{
     justify-content: space-between; 
     margin: 50px 180px 90px 90px;
 }  
+hr{
+    margin: 0 80px;  
+    cursor: pointer; 
+    
+}
 hr:hover{
-    color: #fdfefe;
+    color: yellow; 
+    
 } 
 
 
