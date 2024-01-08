@@ -1,25 +1,26 @@
 *{
     margin: 0; 
-    padding: 0;
+    padding: 0; 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 } 
   
 
-.banner img{  
+  .banner .ban-img{  
 
     margin-left: 80px; 
     height: 430px; 
     width: 1200px; 
-    margin-top: 15px;
+    margin-top:10px;
+
+
 }  
-
-
-  
+ 
   .text-title{  
 text-align: center;  
  top: 20%; 
 position: absolute; 
 color: white; 
-
 } 
 .sub-title{
     font-size: 30px; 
@@ -38,12 +39,9 @@ line-height: 70PX;
         
 } 
  
-.section{ 
-   
-
-}
 .heading-off{
-    color: orangered; 
+    color: 
+    #FF0000; 
     font-size: 50px; 
     font-size: 800;  
     word-spacing: 10px; 
@@ -53,7 +51,7 @@ line-height: 70PX;
 } 
 
 .heading-title{ 
-    color: orangered; 
+    color:  #FF0000;
     font-size: 20px; 
     text-align: center; 
     font-weight: 100; 
@@ -71,25 +69,21 @@ line-height: 70PX;
 
 }  
 
-.section-img , .inofo-join{
+.section-img,.inofo-join{
     margin-left: 80px; 
     height: 430px; 
     width: 1200px;
     margin-top: 70px ;
 
 } 
-
-.messages{ 
- text-align: left;  
- top:180%;
-position: absolute; 
-color: white;  
-margin-left: 200px; 
-max-width: 400px;    
-   
-}  
-
-
+ .head-img{
+    top:400px; 
+  text-align: left;
+} 
+.text-image {
+  
+}
+ 
   .title {
     font-size: 45px;  
     font-weight: 700;  
@@ -105,7 +99,7 @@ button{
    margin-top: 35px ;  
    margin-left: 25px; 
    padding: 5px 10px; 
-   background: yellow; 
+   background:#a6f7c3 ; 
    border: 2px solid gainsboro;
 
 } 
@@ -120,7 +114,8 @@ button{
 
 }  
 .color{
-    color: orangered; 
+    color:  #FF0000;
+   
 
 } 
 .inofo-join main{
@@ -132,7 +127,7 @@ button{
     border-radius: 10px; 
     color: white; 
     font-size: 25px; 
-    background: orangered; 
+    background:  #FF0000;
     padding: 5px 10px;
     margin-top: 50px;
 }  
@@ -144,18 +139,16 @@ button{
     display: flex;
     justify-content: space-between;
     margin: 0 100px; 
-    align-items: center;
+    align-items: center; 
+    gap: 8%;
 } 
-.head-img-head{
-    display: flex; 
-  text-align: left;
 
-} 
 .head-color{
-    color: orangered;
+    color: #FF0000; 
+   
 } 
 .head1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700; 
     margin-top: 8px;
    
@@ -163,15 +156,18 @@ button{
 
 .circle-img{
     
-    width: 240px; 
-    height: 240px;
+    width: 220px; 
+    height: 220px;
    margin-top: 60px; 
-   margin-right: 190px; 
-   padding-left: 90px;
+   margin-left: 1%;
+   border: 6px solid red; 
+   border-radius: 70%; 
+   padding: 25px 25px;
  
- } 
+ }  
+
  .head2{
-    color: orangered; 
+    color:  #FF0000;
     font-size: 40px; 
     font-weight: 800; 
     margin-top: 70px;
@@ -184,10 +180,129 @@ button{
  
  } 
  .new-image{
-    margin-top: 20px;
+    margin-top: 20px; 
+    
  }
+.article{
+    margin-left: 90px;
+   padding-top: 15%;
+  
+} 
+.first-row ,.apps{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap:2%; 
+  margin: 0 auto;  
+  margin-top: 45px;
+
+}  
+
+.pic img{
+    width:390px; 
+    transition: transform 0.5s;
+}  
+.pic img:hover { 
+    transform: scale(1.1); 
+    
+}
+ .second-row{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap:2%; 
+    margin: 0 auto;  
+    margin-top: 20px; 
+}  
+.message-box{
+    text-align: center; 
+    margin-top: 70px; 
+    padding-top: 40px; 
+     
+   
+    
+}  
+.box-section{
+    background: #fdedec;  
+    margin: 0 100px 0px 100px; 
+    border-radius: 5px; 
+    min-height: 490px;
+   
+} 
+
+  form .type-text{
+    width: 350px;
+    height: 35px; 
+    /* align-items: center; */
+    border-radius: 15px; 
+    border:none; 
+
+} 
+
+ form .clik-btn{ 
+    color:#fdfefe; 
+    background: #FF0000;
+     
+} 
+form{  
+    width:500px;    
+
+} 
+/* footer section start here */
+.footer{
+    background:#800080;  
+    color: #fdfefe; 
+    margin: 0 100px 0px 100px; 
+    border-radius: 5px; 
+   min-height: 420px;
+} 
+
+hr{
+   margin: 0 80px;
+}
+.part{
+    display: flex; 
+    text-align: center; 
+    justify-content: space-between;
+    margin-top: 80px; 
+    padding-top: 40px; 
+   
+ 
+} 
+.part-one{
+
+  margin-left: 8%; 
+  max-width: 240px; 
+  line-height: 30px;
+}
+.part-two{
+    padding: 20px 100px; 
+    margin-right: 8%; 
+    line-height: 30px; 
+ 
+ 
+} 
+.apps{
+   text-align: center; 
+   margin-top: 50px; 
+   padding: 20px 40px;
+
+}  
+
+.parts{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 50px 180px 90px 90px;
+}  
+hr:hover{
+    color: #fdfefe;
+} 
 
 
 
+
+
+
+   
 
    
